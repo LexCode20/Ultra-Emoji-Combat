@@ -2,7 +2,8 @@ package ultraemojicombat;
 
 public class Lutador {
     //Atributos
-    private  String nome, nacionalidade, categoria;
+    private String nome, nacionalidade, categoria;
+    private String sexo;
     private int idade;
     private float peso, altura;
     private int vitorias, derrotas, empates;
@@ -23,9 +24,10 @@ public class Lutador {
         this.setEmpates(this.getEmpates() + 1);
     }
     //Métodos Especiais
-    public Lutador(String na, String no, int de, int em, int vi, float al, float pe, int id) {
+    public Lutador(String na, String no, String se, int de, int em, int vi, float al, float pe, int id) {
         this.nacionalidade = na;
         this.nome = no;
+        this.sexo = se;
         this.derrotas = de;
         this.empates = em;
         this.vitorias = vi;
@@ -48,6 +50,12 @@ public class Lutador {
 
     public void setNacionalidade(String nacionalidade) {
         this.nacionalidade = nacionalidade;
+    }
+    public String getSexo() {
+        return sexo;
+    }
+    public void setSexo(String sexo){
+        this.sexo = sexo;
     }
 
     public String getCategoria() {
