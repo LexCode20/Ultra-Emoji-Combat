@@ -9,7 +9,10 @@ public class UltraEmojiCombat {
         l[3] = new Lutador("Austrália", "Dead Code", 0, 13, 2, 1.93f, 81.6f, 28);
         l[4] = new Lutador("Brasil", "UFOCobol", 4,5,3, 1.70f, 119.3f, 37);
         l[5] = new Lutador("EUA", "Nerdaart", 2, 4, 12, 1.81f, 105.7f, 30);
-        l[3].status();
 
+
+        luta UEC01 = new luta();
+        UEC01.marcarLuta(l[4],l[5]);
+        UEC01.lutar();
     }
 }
