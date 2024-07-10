@@ -15,7 +15,7 @@ public class luta {
             this.aprovada = true;
             this.desafiado = l1;
             this.desafiante = l2;
-        }else if(l1.getSexo().equals(l2.getSexo())){
+        }else if(!l1.getSexo().equals(l2.getSexo())){
             System.out.println("A luta não pode acontecer porque os competidores possuem sexos distintos");
         }else{
             this.aprovada = false;

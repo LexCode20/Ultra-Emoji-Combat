@@ -16,13 +16,13 @@ public class UltraEmojiCombat {
         l[10] = new Lutador("França", "Madame Tech", "Feminino", 2, 3, 12, 1.75f, 63.2f, 29);
         l[11] = new Lutador("Canadá", "Maple Fighter", "Feminino", 4, 1, 14, 1.68f, 59.7f, 27);
 
-        luta UEC01 = new luta();
-        UEC01.marcarLuta(l[1], l[5]);
-        UEC01.lutar();
+       // luta UEC01 = new luta();
+        //UEC01.marcarLuta(l[1], l[5]);
+        //UEC01.lutar();
 
         // Teste de luta feminina
         luta UEC02 = new luta();
-        UEC02.marcarLuta(l[6], l[7]);
+        UEC02.marcarLuta(l[8], l[9]);
         UEC02.lutar();
     }
 }
